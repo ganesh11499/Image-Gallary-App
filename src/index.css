@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  margin: 5px;
+}
+
+input {
+  border-radius: 5px;
+  height: 2rem;
+  width: 15%;
+}
+
+@media screen and(max-width:1040px) {
+  input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 1000%;
+  }
+  
+}
